@@ -1,0 +1,3 @@
+[submodule "src/eYRC-2022_HolA_Bot"]
+	path = src/eYRC-2022_HolA_Bot
+	url = https://github.com/erts-RnD/eYRC-2022_HolA_Bot.git
