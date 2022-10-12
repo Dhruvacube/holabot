@@ -7,8 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/dhruva/Documents/eyantra/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/dhruva/Documents/eyantra/catkin_ws/devel/lib:$LD_LIBRARY_PATH"
+export CMAKE_PREFIX_PATH="/home/dhruva/Documents/eyantra/catkin_ws/build/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/dhruva/Documents/eyantra/catkin_ws/build/devel/lib:$LD_LIBRARY_PATH"
 export PWD='/home/dhruva/Documents/eyantra/catkin_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/dhruva/Documents/eyantra/catkin_ws/devel/share/common-lisp'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/dhruva/Documents/eyantra/catkin_ws/build/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/dhruva/Documents/eyantra/catkin_ws/src:$ROS_PACKAGE_PATH"

@@ -19,7 +19,7 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/dhruva/Documents/eyantra/catkin_ws/devel/env.sh')
+code = generate_environment_script('/home/dhruva/Documents/eyantra/catkin_ws/build/devel/env.sh')
 
 output_filename = '/home/dhruva/Documents/eyantra/catkin_ws/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:

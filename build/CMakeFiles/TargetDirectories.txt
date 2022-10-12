@@ -35,3 +35,10 @@
 /home/dhruva/Documents/eyantra/catkin_ws/build/gtest/googletest/CMakeFiles/test.dir
 /home/dhruva/Documents/eyantra/catkin_ws/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/dhruva/Documents/eyantra/catkin_ws/build/gtest/googletest/CMakeFiles/gtest.dir
+/home/dhruva/Documents/eyantra/catkin_ws/build/holabot/CMakeFiles/install/strip.dir
+/home/dhruva/Documents/eyantra/catkin_ws/build/holabot/CMakeFiles/install/local.dir
+/home/dhruva/Documents/eyantra/catkin_ws/build/holabot/CMakeFiles/install.dir
+/home/dhruva/Documents/eyantra/catkin_ws/build/holabot/CMakeFiles/list_install_components.dir
+/home/dhruva/Documents/eyantra/catkin_ws/build/holabot/CMakeFiles/rebuild_cache.dir
+/home/dhruva/Documents/eyantra/catkin_ws/build/holabot/CMakeFiles/edit_cache.dir
+/home/dhruva/Documents/eyantra/catkin_ws/build/holabot/CMakeFiles/test.dir
