@@ -151,7 +151,7 @@
     type="continuous">
     <origin
       xyz="-0.15154 -0.087275 -0.0335"
-      rpy="0 0 0" />
+      rpy="0 0 1" />
     <parent
       link="base_link" />
     <child
@@ -207,8 +207,8 @@
     name="right_joint"
     type="continuous">
     <origin
-      xyz="0.15154 -0.087275 -0.0335"
-      rpy="0 0 0" />
+      xyz="0.14054 -0.082275 -0.0335"
+      rpy="0 0 1" />
     <parent
       link="base_link" />
     <child
