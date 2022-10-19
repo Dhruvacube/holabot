@@ -22,10 +22,13 @@ hola_theta = 0
 
 x_goals, y_goals, theta_goals = [], [], []
 
-def odometryCb(msg):
+def odometryCb(msg: Odometry):
+    # Write your code to take the msg and update the three variables
 	global hola_x, hola_y, hola_theta
-
-	# Write your code to take the msg and update the three variables
+	hola_x = msg.pose.pose.position.x
+	hola_y = msg.pose.pose.position.y
+	hola_theta = euler_from_quaternion([msg.pose.pose.orientation.x, msg.pose.pose.orientation.y, msg.pose.pose.orientation.z, msg.pose.pose.orientation.w])[2]
+	
 
 def task1_goals_Cb(msg):
 	global x_goals, y_goals, theta_goals
@@ -48,6 +51,7 @@ def main():
 	# Initialze Node
 	# We'll leave this for you to figure out the syntax for 
 	# initialising node named "controller"
+	rospy.init_node('controller', anonymous=True)
 	
 	# Initialze Publisher and Subscriber
 	# We'll leave this for you to figure out the syntax for
@@ -70,6 +74,7 @@ def main():
 	# Initialise variables that may be needed for the control loop
 	# For ex: x_d, y_d, theta_d (in **meters** and **radians**) for defining desired goal-pose.
 	# and also Kp values for the P Controller
+	vel_x, vel_y, vel_z = 0, 0, 0
 
 	#
 	# 
@@ -97,7 +102,7 @@ def main():
 		# for now since we are in a simulator and we are not dealing with actual physical limits on the system 
 		# we may get away with skipping this step. But it will be very necessary in the long run.
 
-		vel_x, vel_y, vel_z = 0
+		
 		vel.linear.x = vel_x
 		vel.linear.y = vel_y
 		vel.angular.z = vel_z
@@ -111,3 +116,9 @@ if __name__ == "__main__":
 		main()
 	except rospy.ROSInterruptException:
 		pass
+
+
+
+
+
+
